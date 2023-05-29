@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * prints alphabet ni lowcase
+ * main - prints alphabet ni lowcase
  *
  * Return: always 0
  */
