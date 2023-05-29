@@ -1,4 +1,5 @@
 #include <stdio.h>
+/* main-checks the size of character type */
 
 int main(void)
 {
