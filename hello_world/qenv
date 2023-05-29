@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+echo 'File Name:'
+read file_name
+touch $file_name | echo -e "#!/usr/bin/env bash\n" > $file_name
+chmod u+x $file_name
+vim $file_name
