@@ -1,5 +1,9 @@
 #include <stdio.h>
-/* main-checks the size of character type */
+/**
+ * main - checks the size of character type
+ *
+ * Return: always returns 0
+ */
 
 int main(void)
 {
