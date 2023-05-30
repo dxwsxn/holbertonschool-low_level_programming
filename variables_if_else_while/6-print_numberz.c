@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - prints sigle digit numbers using putchar 
+ * main - prints sigle digit numbers using putchar
  *
  * Return: always 0
  */
