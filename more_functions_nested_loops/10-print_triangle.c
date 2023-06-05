@@ -17,11 +17,14 @@ void print_triangle(int size)
 		{
 			for (rows = 1; rows <= size; rows++)
 			{
-				putchar(35);
-			}
-			else
-			{
-				putchar(' ');
+				if ((spaces + rows) > size)
+				{
+					putchar(35);
+				}
+				else
+				{
+					putchar(' ');
+				}
 			}
 		}
 		putchar('\n');
