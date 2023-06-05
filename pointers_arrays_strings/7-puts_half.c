@@ -9,14 +9,14 @@ void puts_half(char *s)
 {
 	int j, i = 0;
 
-	while (*(str + i))
+	while (*(s + i))
 		i++;
 	j = i / 2;
 	if (i % 2)
 		j += 1;
 	while (j < i)
 	{
-		_putchar(*(str + j));
+		_putchar(*(s + j));
 		j++;
 	}
 	_putchar('\n');
