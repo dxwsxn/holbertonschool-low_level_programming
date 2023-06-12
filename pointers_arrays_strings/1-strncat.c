@@ -22,7 +22,6 @@ char *_strncat(char *dest, char *src, int n)
 			if (src[d])
 			{
 				dest[s + d] = src[d];
-			}
 		}
 		else
 			break;
