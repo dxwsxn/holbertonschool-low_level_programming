@@ -2,26 +2,26 @@
 
 /**
  * leet - encodes string into 1337
- * @v: variable
+ * @s: string
  *
  * Return: 1337 speak
  */
-char *leet(char *v)
+char *leet(char *s)
 {
 	int i, j;
 
-	char *a = "aAeEoOtT1L";
-	char *b = "4433007711";
+	char *let = "aAeEoOtT1L";
+	char *val = "4433007711";
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
-		for (j = 0; j < 10; j++)
+		for (j = 0; let[j] != '\0'; j++)
 		{
-			if (s[i] == a[j])
+			if (s[i] == let[j])
 			{
-				s[i] = b[j];
+				s[i] = val[j];
 			}
 		}
 	}
-	return (v);
+	return (s);
 }
