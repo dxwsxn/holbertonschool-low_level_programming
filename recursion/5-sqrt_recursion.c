@@ -8,7 +8,9 @@ int sqrt2(int n, int i);
  */
 int _sqrt_recursion(int n)
 {
-	return (sqrt2(n, 1));
+	if (n < 0)
+		return (-1);
+	return (sqrt2(n, 0));
 }
 
 /**
