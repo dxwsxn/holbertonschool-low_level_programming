@@ -22,7 +22,7 @@ int _sqrt_recursion(int n)
 int sqrt2(int n, int i)
 {
 	if (i * i == n)
-		return (1);
+		return (n);
 	else if (i * i > n)
 		return (-1);
 	return (sqrt2(n, i + 1));
