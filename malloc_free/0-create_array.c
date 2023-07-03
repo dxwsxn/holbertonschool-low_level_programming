@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <main.h>
+#include "main.h"
 /**
  * create_array - creates arr and int with a spec char
  * @size: size of arry
