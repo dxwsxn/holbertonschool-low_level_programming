@@ -7,7 +7,7 @@
  * @b: num to allocate mem
  * @Return: ptr to mem allocated
  */
-void *malloc_checked(signed int b)
+void *malloc_checked(signed int b);
 {
 	unsigned int*i;
 
