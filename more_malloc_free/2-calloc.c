@@ -3,8 +3,8 @@
 #include <stdlib.h>
 /**
  * _calloc - allocates mem for arr using malloc
- * @numele: number of elements
- * @size: size of element 
+ * @nmemb: number of elements
+ * @size: size of element
  * Return: ptr to allocated mem, if 0 NULL
  */
 void *_calloc(unsigned int nmemb, unsigned int size)
