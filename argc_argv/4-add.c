@@ -1,5 +1,8 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
+#include <ctype.h>
+
 /**
  * main - adds numbers
  * @argc: number of arg pass to program
