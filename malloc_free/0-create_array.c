@@ -7,7 +7,7 @@
  * @c: char to int the array
  * Return: pointer to array, null if nay.
  */
-char *create_array(unsigned int size, char c);
+char *create_array(unsigned int size, char c)
 {
 	unsigned int i;
 	char *str;
