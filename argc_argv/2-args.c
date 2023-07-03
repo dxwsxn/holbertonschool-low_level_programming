@@ -3,8 +3,8 @@
 #include "main.h"
 /**
  * main - prints all args
- * argc: number of args
- * argv: array of argc
+ * @argc: number of args
+ * @argv: array of argc
  * Return: 0
  */
 int main(int argc, char **argv)
