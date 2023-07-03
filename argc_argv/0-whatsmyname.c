@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- *
  * main - print program name
  * @argc: count
  * @argv: vector
