@@ -2,7 +2,7 @@
 /**
  * print_name - prints name
  * @name: name being print
- * @f: func to send name 
+ * @f: func to send name
  * Return: nothing
  */
 
