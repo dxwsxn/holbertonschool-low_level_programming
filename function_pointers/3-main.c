@@ -1,5 +1,5 @@
 #include "3-calc.h"
-
+#include <string.h>
 /** main - performs simple operations
  *
  * @argc: number of args
