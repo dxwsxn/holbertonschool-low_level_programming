@@ -4,6 +4,7 @@
 /**
  * int_index - searches for inte
  * @array: array being searched thru
+ * @size: size of arr
  * @cmp: ptr to func that compares values
  * Return: index of first elem
  * if no element match, -1
