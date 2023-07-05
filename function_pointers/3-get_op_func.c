@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * get_op)func - selects the correct func to perform operation asked
+ * get_op_func - selects the correct func to perform operation asked
  * @s: operator used as arg for program
  *
  * Return: ptr to func that is used.
@@ -10,8 +10,7 @@
  */
 int (*get_op_func(char *s))(int, int)
 {
-	op_t ops[] = 
-	{
+	op_t ops[] ={
 		{"+", op_add},
 		{"-", op_sub},
 		{"*", op_mul},
