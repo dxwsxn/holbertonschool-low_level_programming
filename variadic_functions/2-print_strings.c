@@ -1,4 +1,4 @@
-#include <stdar.h>
+#include <stdarg.h>
 #include <stdio.h>
 /**
  * print_strings- obv, followed by new line

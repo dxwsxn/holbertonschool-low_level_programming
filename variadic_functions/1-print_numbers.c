@@ -1,4 +1,4 @@
-#include "variadic_funcions.h"
+#include "variadic_functions.h"
 #include <stdarg.h>
 #include <stdio.h>
 
