@@ -1,6 +1,6 @@
 #include "3-calc.h"
 #include <string.h>
-#include <cstring>
+
 /**
  * get_op)func - selects the correct func to perform operation asked
  * @s: operator used as arg for program
