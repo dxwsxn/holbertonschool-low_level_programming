@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * alloc_grid = returns ptr to twodim arr of ints
+ * alloc_grid - returns ptr to twodim arr of ints
  * @width: width of grid
  * @height: height
  * Return: return ptr to grid, null if bad
