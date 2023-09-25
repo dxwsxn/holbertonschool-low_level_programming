@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - prints all base 16 in LC
- * 
+ *
  * Return: 0
  */
 int main(void)
