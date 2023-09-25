@@ -1,1 +1,1 @@
-this is the readme for the Hello world directory.
+this is the readme for the low level programming repo
