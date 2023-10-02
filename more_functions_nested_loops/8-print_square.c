@@ -19,7 +19,7 @@ void print_square(int size)
 	{
 		for (columns = 0; columns < size; columns++)
 		{
-			for (columns = 0; columns < size; columns++)
+			putchar(35);
 		}
 		putchar('\n');
 	}
