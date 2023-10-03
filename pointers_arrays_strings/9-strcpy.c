@@ -6,6 +6,7 @@
  * pointed to by @dest.
  * @src: copied string
  * @dest: destination of string
+ * @leng: length of strin
  * Return: char
  */
 char *_strcpy(char *dest, char *src)
