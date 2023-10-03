@@ -12,7 +12,7 @@ void rev_string(char *s)
 
 	while (s[a] != '\0')
 	{
-		a++
+		a++;
 	}
 	b = a / 2;
 
