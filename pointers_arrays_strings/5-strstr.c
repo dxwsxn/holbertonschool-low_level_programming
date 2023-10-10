@@ -18,7 +18,7 @@ char *_strstr(char *mess, char *findstr)
 	{
 		for (i = 0; findstr[i]; i++)
 		{
-			if (mess[i] != findstr[i[)
+			if (mess[i] != findstr[i])
 				break;
 		}
 		if (i != s)
