@@ -23,7 +23,7 @@ unsigned int _strspn(char *s, char *select)
 			}
 			j++;
 		}
-		if (accept[j] == '\0')
+		if (select[j] == '\0')
 		{
 			return (i);
 		}
