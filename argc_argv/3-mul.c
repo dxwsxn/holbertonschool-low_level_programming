@@ -4,8 +4,8 @@
 
 /**
  * main - entry point
- * @argc - number of arg
- * @argv - string
+ * @argc: number of arg
+ * @argv: string
  * Return: 0
  */
 int main(int argc, char *argv[])
