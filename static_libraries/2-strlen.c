@@ -7,3 +7,5 @@
  * Return: 0
  */
 int _strlen(char *s)
+{
+}
