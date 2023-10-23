@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-void *malloc_checked(unsigned int b);
 
 /**
  * malloc_checked - func that allocates mem
